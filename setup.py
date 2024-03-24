@@ -21,5 +21,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=["paho-mqtt>=1.3.0"],
+    install_requires=["paho-mqtt>=1.3.0,<2.0.0"],
 )
